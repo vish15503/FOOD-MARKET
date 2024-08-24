@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodFiesta.com</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-light pt-3 pb-3" style="background-color:hwb(0 100% 0%) ">
+    <div class="container-xxl">
+      <!-- navbar brand -->
+      <a class="navbar-brand" href="#intro">
+        <span class="tt text-dark fw-bold" data-bs-placement="bottom" title="Feeling Hungry?
+        Grab your meal here!">
+            <i class="fa-solid fa-bowl-rice"></i>
+          FoodFiesta
+        </span>
+        </span>
+      </a>
+      <!-- search food -->
+      <span>
+      <input type="text" placeholder="What do you crave for?" class="text-dark border-0" />
+      <button class="text-dark border-0"><i class="bi bi-search"></i></button>
+    </span>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+<!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center " id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#contact">Query/Suggestions</a>
+          </li>
+          <a href="#order" class="btn border-0 btn-lg rounded-pill" style="background-color:rgb(227, 183, 103); color:white">Order now</a>
+         </ul>
+      </div>
+    </div>
+  </nav>  
+
+  <!-- HERO SECTION -->
+  <!-- open sidebar / offcanvas -->
+  <!-- Tooltip -->
+  <span class="tt" data-bs-placement="bottom" title="Feeling Hungry?
+  Grab your meal here!">
+  <img class="img-fluid" src="/images/cover-mdF2JDPph-transformed.jpeg" style="width: 100%; height: 50vh;" alt="cover">
+</span>
+
+<!-- about us -->
+<section class="about m-0 p-3" style="background-color:rgb(234, 236, 237);">
+    <div class="about-us">
+        <p class="lead text-dark fw-bolder">Order Food Online in Bareilly from FoodFiesta
+            </p>
+            <span class="text-muted">
+                Welcome to Bareilly, a city that is not only famous for its vibrant culture and rich history but also for its unique food culture. Bareilly offers a delightful culinary journey with its diverse range of cuisines and dishes that are sure to tantalize your taste buds...
+            </span>
+            <div class="container-xxl text-center m-1 p-1 ">
+                <a href="#sidebar1" class="d-block justify-content-center align-items-center" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                  
+                  <button class="btn btn-lg text-decoration-none justify-content-center align-items-center border-0 text-light rounded-pill fw-bold" style="background-color:rgb(227, 183, 103);">
+                 EXPLORE THE YUMMY FIESTA
+                  </button>
+                  </div>
+                  </a>
+    </div>
+</section>
+
+<!--offcanvas -->
+<div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar1" aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title fw-bold" style="color: rgb(8, 8, 8);" id="sidebar1-label">OUR DELICIOUS DELIGHTS</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+     <ul class="text-decoration-none" style="color: grey;">
+        <li>
+            <P>BURGER
+                <img src="/images/burger.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>PIZZA
+                <img src="/images/pizza.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>NOODLES
+                <img src="/images/noodles.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>BIRYANI
+                <img src="/images/biryani.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>ICE-CREAM
+                <img src="/images/ice.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>VEG ROLL
+                <img src="/images/veg roll.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>SAMOSA
+                <img src="/images/samosa.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>SANDWICH
+                <img src="/images/sandwich.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>CHOCOLATE SHAKE
+                <img src="/images/shake.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>DOSA
+                <img src="/images/dosa.jpeg" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>PASTA
+                <img src="/images/pasta.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+        <li>
+            <P>MOMOS
+                <img src="/images/momo.png" style="width:2rem;"> </img>
+            </P>
+        </li>
+     </ul>
+     </div>
+     </div>
+     </div>
+     </div>
+    
+<!-- Carousal and cards sliding -->
+     <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="image-wrapper">
+                    <img src="/images/pizza-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Pizza</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/burger-.jpeg" alt="...">
+                </div>
+                        
+                    <div class="card-body">
+                      <h5 class="card-title">Burger</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/noodles-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Noodles</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                   <img src="/images/momo-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Momos</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/dosa-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Dosa</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="image-wrapper">
+                    <img src="/images/dhokla-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Dhokla</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/desserts-.jpeg" alt="...">
+                </div>   
+                    <div class="card-body">
+                      <h5 class="card-title">Desserts</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/drinks-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Drinks</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/pasta-.jpeg" alt="...">
+                </div> 
+                    <div class="card-body">
+                      <h5 class="card-title">Pasta</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/samosa-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Samosa</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="image-wrapper">
+                    <img src="/images/fries-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Fries</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/rolls-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Rolls</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/idli.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Idli</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/biryani-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Biryani</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="image-wrapper">
+                    <img src="/images/shakes-.jpeg" alt="...">
+                </div>  
+                    <div class="card-body">
+                      <h5 class="card-title">Shakes</h5>
+                      <p class="card-text text-primary">&#8377 150</p>
+                      <a href="#" class="btn" style="background-color: rgb(224, 200, 102);">Order now</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+<!-- Menu in form of accordians -->
+<section id="menu" style="background-color: rgb(234, 236, 237);">
+  <div class="container-md">
+    <div class="text-center p-4">
+      <h2>OUR MENU</h2>
+      <p class="lead text-muted">A Glance of the food fiesta</p>
+    </div>
+    <div class="row  g-5 justify-content-around align-items-center">
+      <div class="col-6 col-lg-4">
+        <img src="/images/fiesta.jpeg" class="img-fluid border-0 rounded-pill" style="height: 50vh; width: 100%;" alt="food">
+      </div>
+      <div class="col-lg-6">
+        <!-- accordion -->
+        <div class="accordion" id="menus">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#menu1" aria-expanded="true" aria-controls="menu1">
+                North Indian Food
+              </button>
+            </h2>
+            <div id="menu1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#menus">
+              <div class="accordion-body">
+                <ul>
+                  <li>Dal Makhani</li>
+                  <li>Vada Pav</li>
+                  <li>Stuffed Paratha</li>
+                  <li>Chole Bhature</li>
+                  <li>Samosa</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu2" aria-expanded="false" aria-controls="menu2">
+                South Indian Food
+              </button>
+            </h2>
+            <div id="menu2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#menus">
+              <div class="accordion-body">
+                <ul>
+                  <li>Dosa</li>
+                  <li>Idli</li>
+                  <li>Vadas</li>
+                  <li>Banana Chips</li>
+                  <li>Uttapams</li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu3" aria-expanded="false" aria-controls="menu3">
+               Chinese Food
+              </button>
+            </h2>
+            <div id="menu3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#menus">
+              <div class="accordion-body">
+                <ul>
+                  <li>Chowmein</li>
+                  <li>Noodles</li>
+                  <li>Spring Rolls</li>
+                  <li>Hot Pot</li>
+                  <li>Mapo Tofu</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu4" aria-expanded="false" aria-controls="menu4">
+                Italian Food
+              </button>
+            </h2>
+            <div id="menu4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#menus">
+              <div class="accordion-body">
+                <ul>
+                  <li>Momos</li>
+                  <li>Pizza</li>
+                  <li>Pasta</li>
+                  <li>Burger</li>
+                  <li>Vitello Tonnato</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu5" aria-expanded="false" aria-controls="menu5">
+                Desserts
+              </button>
+            </h2>
+            <div id="menu5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#menus">
+              <div class="accordion-body">
+                <ul>
+                  <li>Cakes</li>
+                  <li>Cookies</li>
+                  <li>Puddings</li>
+                  <li>Choco Lava Cake</li>
+                  <li>Shakes and Ice-Creams</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>   
+
+<!-- Ratings -->
+<section id="reviews" class="bg-altlight p-5" style="background-color: rgb(234, 236, 237);">
+  <div class="container-lg">
+    <div class="text-center">
+      <h2><i class="fa-solid fa-ranking-star "></i>Food Ratings</h2>
+      <p class="lead">What our customers have said about the food...</p>
+    </div>
+<div class="row justify-content-center my-5">
+      <div class="col-lg-8">
+        <div class="list-group">
+          <div class="list-group-item py-3">
+            <div class="pb-2">
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+            </div>
+            <h5 class="mb-1">Good Quality food</h5>
+            <p class="mb-1">Meals are fresh and tasty.</small></p>
+              <small>Review by Alice</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2">
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+            </div>
+            <h5 class="mb-1">Always worth the stop</h5>
+            <p class="mb-1"> It was really delicious taste with great quality, everything had unique taste which we had ordered.</p>
+            <small>Review by Mario</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2">
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-half text-altdark"></i>
+            </div>
+            <h5 class="mb-1">A must-try for every foodie</h5>
+            <p class="mb-1">Best Pizza EVER! </p>
+            <small>Review by Kaira</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2">
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+            </div>
+            <h5 class="mb-1">Always great service.</h5>
+            <p class="mb-1">Prices were reasonable.</p>
+            <small>Review by Rahul</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2">
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-fill text-altdark"></i>
+              <i class="bi bi-star-half text-altdark"></i>
+            </div>
+            <h5 class="mb-1">I would recommend FoodFiesta.</h5>
+            <p class="mb-1"> Weather on Pizza or Pasta, it’s honestly delicious. </p>
+            <small>Review by Sania</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact form -->
+  <!-- form-control, form-label, form-select, input-group, input-group-text -->
+  <section id="contact" style="background-color: rgb(234, 236, 237);">
+    <div class="container-lg" >
+      <div class="text-center">
+        <h2>Support</h2>
+        <p class="lead">Query/Suggestions</p>
+      </div>
+      <div class="row justify-content-center ">
+        <div class="col-lg-6">
+          <form>
+            <label for="email" class="form-label">Email address:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill text-secondary"></i>
+              </span>
+              <input type="text" id="email" class="form-control" placeholder="e.g. mario@example.com" />
+            <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+            <label for="name" class="form-label">Name:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-person-fill text-secondary"></i>
+              </span>
+              <input type="text" id="name" class="form-control" placeholder="e.g. Mario" />
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Pretty self explanatory really...">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+                <label for="name" class="form-label">Phone No.:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="fa-solid fa-phone text-secondary"></i>
+              </span>
+              <input type="text" id="phn" class="form-control" placeholder="e.g. 1234567890" />
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter a contact number we can reach you to">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+                <!-- query -->
+                <label for="name" class="form-label">Query/Suggestions:</label>
+            <div class="mb-4 input-group">
+              <textarea name="query" id="query" style="height: 20vh; width: 100%;" placeholder="Enter your Queries and suggestions..."></textarea>
+              </span>
+              </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn" style="background-color: rgb(236, 191, 107);">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="foot">
+<footer>
+  <div class="icon">
+    <div class="text-center" id="label">
+        <i class="fa-solid fa-bowl-rice"></i>
+        <p class="text-center fw-bolder">FoodFiesta </p> 
+    </div>
+  </div>
+    <div class="footer">
+    <div class="panel-1">
+    <a href="#" class="fw-bold">Company</a>
+    <br>
+    <p>About</p>
+    <p>Team</p>
+    </div>
+    <div class="panel-2">
+        <a href="#" class="fw-bold">Legal</a>
+        <br>
+    <p>Terms & Conditions</p>
+    <p>Cookie Policy</p>
+    <p>Privacy Policy</p>
+</div>
+<div class="panel-3">
+    <a href="#" class="fw-bold">We deliver to</a>
+    <br>
+    <p>Delhi</p>
+    <p>Gurugram</p>
+    <p>Bareilly</p>
+</div>
+<div class="panel-3">
+    <a href="#" class="fw-bold">Contact us</a>
+    <br>
+    <p>Help & Support</p>
+    <p>Partner with us</p>
+    <p>Ride with us</p>
+</div>
+</div>
+  </footer>
+</section>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- Enabling Tooltip -->
+<script>
+  const tooltips = document.querySelectorAll('.tt')
+  tooltips.forEach(t => {
+    new bootstrap.Tooltip(t)
+  })
+</script>  
+</body>
+</html>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
