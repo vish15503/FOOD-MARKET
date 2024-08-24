@@ -1,4 +1,4 @@
-# FoodFiesta-Website
+# Food MARKET WEBSITE
 This repository contains the source code for "FoodFiesta," a food website built using HTML, CSS, and the Bootstrap framework.
 FoodFiesta is a project aimed at showcasing delicious food items and promoting culinary experiences.
 
